@@ -4,12 +4,12 @@ O uso de ferramentas computacionais, no âmbito das geociências, cresce a cada 
 
 ## Microserviços necessários:
 
-
+![FLUXO_DOCKER](https://user-images.githubusercontent.com/67324934/86401811-3ab58880-bc81-11ea-9017-7e7dc481e65f.png)
 
 #### 1. Para a reprodução do projeto é necessária a instalação do software Docker Desktop. Após a instalação do aplicativo, é necessário o download dos códigos anexados ao projeto Geocontainer e sua localização em um diretório de interesse. 
 
 #### 2. Após os downloads necessários, através de um terminal shell, localizado no diretório onde os arquivos do projeto Geocontainer se encontram-se, aplica-se o comando : 
-	Docker-compose up
+	docker-compose up
 #### 3. O Docker irá iniciar o Docker-compose.yml, que irá dar início aos serviços listados no código. 
 #### 4. Para acessar o serviço web, digita http://localhost:80
 
