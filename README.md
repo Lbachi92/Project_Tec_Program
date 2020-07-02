@@ -4,7 +4,7 @@ O uso de ferramentas computacionais, no âmbito das geociências, cresce a cada 
 
 ## Microserviços necessários:
 
-![FLUXO_DOCKER](https://user-images.githubusercontent.com/67324934/86401811-3ab58880-bc81-11ea-9017-7e7dc481e65f.png)
+![micro_service](https://user-images.githubusercontent.com/67324934/86402716-ae0bca00-bc82-11ea-8d8e-b98abfd45e3a.png)
 
 #### 1. Para a reprodução do projeto é necessária a instalação do software Docker Desktop. Após a instalação do aplicativo, é necessário o download dos códigos anexados ao projeto Geocontainer e sua localização em um diretório de interesse. 
 
@@ -13,11 +13,13 @@ O uso de ferramentas computacionais, no âmbito das geociências, cresce a cada 
 #### 3. O Docker irá iniciar o Docker-compose.yml, que irá dar início aos serviços listados no código. 
 #### 4. Para acessar o serviço web, digita http://localhost:80
 
-
+![pag_web](https://user-images.githubusercontent.com/67324934/86402754-bb28b900-bc82-11ea-8776-68dd1279d10a.png)
 
 #### 5. Digite as informações do sitio geológico nos campos listados
-
 
 #### 6. Aperte em Salvar
 
 #### 7. Mensagem com os itens listado aparece na tela, confirmando o registro no banco de dados. 
+
+![confirm_register](https://user-images.githubusercontent.com/67324934/86402787-cb409880-bc82-11ea-9327-c6136bae93ce.png)
+
