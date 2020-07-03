@@ -9,7 +9,9 @@ O uso de ferramentas computacionais, no âmbito das geociências, cresce a cada 
 #### 1. Para a reprodução do projeto é necessária a instalação do software Docker Desktop. Após a instalação do aplicativo, é necessário o download dos códigos anexados ao projeto Geocontainer e sua localização em um diretório de interesse. 
 
 #### 2. Após os downloads necessários, através de um terminal shell, localizado no diretório onde os arquivos do projeto Geocontainer se encontram-se, aplica-se o comando : 
-	docker-compose up
+
+	docker-compose up -d
+	
 #### 3. O Docker irá iniciar o Docker-compose.yml, que irá dar início aos serviços listados no código. 
 #### 4. Para acessar o serviço web, digita http://localhost:80
 
@@ -22,4 +24,8 @@ O uso de ferramentas computacionais, no âmbito das geociências, cresce a cada 
 #### 7. Mensagem com os itens listado aparece na tela, confirmando o registro no banco de dados. 
 
 ![confirm_register](https://user-images.githubusercontent.com/67324934/86402787-cb409880-bc82-11ea-9327-c6136bae93ce.png)
+
+### 8. Para finalizar a aplicação, utilize no shell o comando:
+
+	docker-compose down
 
