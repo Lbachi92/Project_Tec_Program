@@ -6,7 +6,11 @@ O uso de ferramentas computacionais, no âmbito das geociências, cresce a cada 
 
 ![micro_service](https://user-images.githubusercontent.com/67324934/86402716-ae0bca00-bc82-11ea-8d8e-b98abfd45e3a.png)
 
-#### 1. Para a reprodução do projeto é necessária a instalação do software Docker Desktop. Após a instalação do aplicativo, é necessário o download dos códigos anexados ao projeto Geocontainer e sua localização em um diretório de interesse. 
+#### 1. Para a reprodução do projeto é necessária a instalação do software Docker Desktop. Após a instalação do aplicativo, é necessário o download dos códigos anexados ao projeto Geocontainer e sua localização em um diretório de interesse. É necessária a criação de 3 diretorios denominados dentro do local definido para o projeto, denominadas "app", "web" e "scripts", para que sejam alocados os arquivos na seguinte forma:
+
+	app - envia.py e app.sh
+	web - index.html
+	scripts - init.sql e check.sql
 
 #### 2. Após os downloads necessários, através de um terminal shell, localizado no diretório onde os arquivos do projeto Geocontainer se encontram-se, aplica-se o comando : 
 
